@@ -580,7 +580,7 @@ async def about_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 🚀 SSH Terminal Telegram Bot
 🎯 Maqsad:
 Telegram orqali SSH serverlarni boshqarish
-👨‍💻 Ishlab chiquvchi: Siz
+👨‍💻 Ishlab chiquvchi: @Tikmayman
 🔧 Texnologiyalar:
 • Python 3
 • Telegram Bot API
@@ -1217,3 +1217,4 @@ if __name__ == '__main__':
         import sys
 
         sys.exit(1)
+

@@ -19,17 +19,17 @@ from cryptography.fernet import Fernet
 nest_asyncio.apply()
 
 # Konfiguratsiya
-BOT_TOKEN = "8238940495:AAFdcm-MWKQKzNw8qXxeerdFpNPU01AAsec"  # Bot token
+BOT_TOKEN = "BOT_TOKEN"  # Bot token
 
 # Admin ID - BU YERNI O'ZGARTIRING
-ADMIN_IDS = [8162058247]  # O'zingizning Telegram ID raqamingizni kiriting
+ADMIN_IDS = [ADMIN_ID]  # O'zingizning Telegram ID raqamingizni kiriting
 
 # PostgreSQL konfiguratsiyasi - BU YERNI O'ZGARTIRING
 DB_CONFIG = {
-    'host': 'postgresql-komp.alwaysdata.net',
-    'database': 'komp_sshbot',
-    'user': 'komp',
-    'password': 'komp@#12',
+    'host': 'DB_HOST',
+    'database': 'DB_NAME',
+    'user': 'DB_USER',
+    'password': 'DB_PASSWORD',
     'port': 5432
 }
 
@@ -1215,4 +1215,5 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"Xatolik: {e}")
         import sys
+
         sys.exit(1)
